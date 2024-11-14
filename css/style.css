@@ -1,18 +1,9 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
-div {
-  text-align: center;
+header {
   background-color: #121212;
-  height: 100vh;
 }
 
 .container {
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
+
   background-color: #1e1e1e;
   box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.5);
 }
@@ -25,7 +16,6 @@ h1 {
 }
 
 p {
-  font-size: 35px;
   color: #cccccc;
   font-family: "Roboto", sans-serif;
 }
@@ -35,8 +25,6 @@ button {
   width: 250px;
   height: 80px;
   background-color: #3a7ca5;
-  color: white;
-  font-size: 20px;
   cursor: pointer;
   border: none;
   border-radius: 165px;

@@ -10,20 +10,25 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <!-- Main Style -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div>
-      <div class="container">
-        <h1>Quote of the Day</h1>
-        <p>Press the button below to receive a random quote!</p>
-        <button id="click">New Quote</button>
-        <p id="quote"></p>
-        <p id="author"></p>
+    <header class="vh-100">
+      <div class="container text-center  h-100">
+        <div class="inner pt-5">
+          <h1 class="display-1 mt-4">Quote of the Day</h1>
+          <p class= "display-6 my-4">Press the button below to receive a random quote!</p>
+          <button id="click" class="fs-5 text-white">New Quote</button>
+          <p id="quote" class= "display-6 my-4"></p>
+          <p id="author" class= "display-6 my-4"></p>
+        </div>
       </div>
-    </div>
+    </header>
 
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
