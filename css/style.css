@@ -3,7 +3,6 @@ header {
 }
 
 .container {
-
   background-color: #1e1e1e;
   box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.5);
 }
@@ -22,14 +21,9 @@ p {
 
 button {
   font-family: "Poppins", sans-serif;
-  width: 250px;
-  height: 80px;
-  background-color: #3a7ca5;
-  cursor: pointer;
-  border: none;
-  border-radius: 165px;
+  background-color: #3a7ca5 !important;
 }
 
 button:hover {
-  background-color: #335f8a;
+  background-color: #335f8a !important;
 }
